@@ -1,0 +1,16 @@
+extends: _layouts.usecase
+date: 2018-03-26
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex
+reference: find the Index of an element in an Array
+related: Single-Character-from-a-String
+category: arrays
+
+```javascript
+var colors = ["red", "green", "blue"];
+colors.indexOf("blue");
+colors.indexOf("green");
+colors.indexOf("red");
+```
+<pre class="output">2</pre>
+<pre class="output">1</pre>
+<pre class="output">0</pre>
